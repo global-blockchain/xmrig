@@ -20,7 +20,7 @@
     "pools": [
         {
             "url": "xmrpool.imonero.org:8888",
-            "user": "YOUR_WALLET",
+            "user": "48PbYAxS8rj6B3u94zZwfwPZ7Y777zztQHrDGSvDaheu4LG6Y1e5L7QbUt28z4ZGETi5bSLeUCerx4cEnyFSidSQ9o1mJDG",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
