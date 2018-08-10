@@ -57,7 +57,7 @@ XMRig 是一款高性能的CPU门罗币挖矿软件，支持windows操作系统 
 * 支持Nicehash
 * 完全开源.
 ## Download
-* Binary releases: https://github.com/global-blockchain/xmrig
+* Binary releases: https://github.com/global-blockchain/xmrig/releases
 * Git tree: https://github.com/global-blockchain/xmrig.git
   * Clone with `git clone https://github.com/global-blockchain/xmrig.git` :hammer: [Build instructions](https://github.com/xmrig/xmrig/wiki/Build).
 
