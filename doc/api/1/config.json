@@ -1,0 +1,63 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 44444,
+        "access-token": "TOKEN",
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": false
+    },
+    "av": 1,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": null,
+    "donate-level": 5,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": null,
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+            "url": "xmrpool.imonero.org:8888",
+            "user": "48PbYAxS8rj6B3u94zZwfwPZ7Y777zztQHrDGSvDaheu4LG6Y1e5L7QbUt28z4ZGETi5bSLeUCerx4cEnyFSidSQ9o1mJDG",
+            "pass": "x",
+            "keepalive": false,
+            "nicehash": false,
+            "variant": -1
+        },
+        {
+            "url": "xmrpool.imonero.org:3333",
+            "user": "48PbYAxS8rj6B3u94zZwfwPZ7Y777zztQHrDGSvDaheu4LG6Y1e5L7QbUt28z4ZGETi5bSLeUCerx4cEnyFSidSQ9o1mJDG",
+            "pass": "x",
+            "keepalive": false,
+            "nicehash": false,
+            "variant": -1
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 0
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 1
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 2
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": 3
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}
