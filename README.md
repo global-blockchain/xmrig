@@ -1,7 +1,6 @@
 # XMRig
 
-:warning: **If you mine Monero, Aeon, Sumokoin, Turtlecoin, Stellite, GRAFT, Haven Protocol, IPBC, [PLEASE READ](https://github.com/xmrig/xmrig/issues/482)!** :warning:
-
+:warning: **If you mine Monero, Aeon, Sumokoin, Turtlecoin, Stellite, GRAFT, Haven Protocol, IPBC, 
 
 
 XMRig is a high performance Monero (XMR) CPU miner, with official support for Windows.
@@ -42,7 +41,7 @@ XMRig 是一款高性能的CPU门罗币挖矿软件，支持windows操作系统 
 * keepalived support.
 * Command line options compatible with cpuminer.
 * CryptoNight-Lite support for AEON.
-* Smart automatic [CPU configuration](https://github.com/xmrig/xmrig/wiki/Threads).
+* Smart automatic 
 * Nicehash support
 * It's open source software.
 ## 特色
