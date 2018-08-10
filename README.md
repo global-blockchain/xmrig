@@ -25,7 +25,7 @@ XMRig 是一款高性能的CPU门罗币挖矿软件，支持windows操作系统 
 * [下载](#download)
 * [用法](#usage)
 * [Algorithm variations](#algorithm-variations)
-* [Build](https://github.com/xmrig/xmrig/wiki/Build)
+* [编译安装]
 * [Common Issues](#common-issues)
 * [Other information](#other-information)
 * [Donations](#donations)
