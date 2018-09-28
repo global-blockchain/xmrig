@@ -7,6 +7,7 @@ option(WITH_SUMO     "CryptoNight-Heavy support" ON)
 option(WITH_HTTPD    "HTTP REST API" ON)
 option(BUILD_STATIC  "Build static binary" OFF)
 
+
 include (CheckIncludeFile)
 include (cmake/cpu.cmake)
 
@@ -135,6 +136,7 @@ if (WIN32)
         src/Mem_win.cpp
         )
 
+    set(CMAKE_WIN32_EXECUTABLE ON)
     add_definitions(/DWIN32)
     set(EXTRA_LIBS ws2_32 psapi iphlpapi userenv)
 elseif (APPLE)

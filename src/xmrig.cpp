@@ -17,11 +17,26 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+//#include<windows.h>
 #include "App.h"
 
 
-int main(int argc, char **argv) {
-    App app(argc, argv);
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,LPSTR lpCmdLine, int nCmdShow){
+    MessageBox(NULL,TEXT("xmr"), TEXT("dhp"), MB_OK);
+    App app(0, NULL);
 
     return app.exec();
 }
+
+/*
+int main(int argc, char **argv) {
+
+    char **test=argv;
+    for(int i=0;i<argc;i++)
+    {
+        printf("%d:%s\n",i,test[i]);
+    }
+    App app(argc, argv);
+
+    return app.exec();
+}*/
